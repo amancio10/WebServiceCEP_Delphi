@@ -1,0 +1,65 @@
+inherited FrmPrincipal_iPhone55in: TFrmPrincipal_iPhone55in
+  ClientHeight = 716
+  ClientWidth = 414
+  DesignerMasterStyle = 0
+  inherited Button: TButton
+    Position.Y = 660.000000000000000000
+    Size.Width = 414.000000000000000000
+  end
+  inherited GroupBox1: TGroupBox
+    Size.Width = 414.000000000000000000
+    inherited EditCEP: TEdit
+      Size.Height = 30.000000000000000000
+    end
+    inherited LblCEP: TLabel
+      Size.Height = 23.000000000000000000
+    end
+    inherited Glyph1: TGlyph
+      Position.X = 361.000000000000000000
+    end
+  end
+  inherited GroupBox2: TGroupBox
+    Size.Width = 414.000000000000000000
+    inherited EditLocalidade: TEdit
+      inherited LblGIA: TLabel
+        Size.Height = 23.000000000000000000
+      end
+    end
+    inherited LblLogradouro: TLabel
+      Size.Height = 23.000000000000000000
+    end
+    inherited LblComplemento: TLabel
+      Size.Height = 46.000000000000000000
+    end
+    inherited LblBairro: TLabel
+      Size.Height = 23.000000000000000000
+    end
+    inherited LblLocalidade: TLabel
+      Size.Height = 23.000000000000000000
+    end
+    inherited LblUF: TLabel
+      Size.Height = 23.000000000000000000
+    end
+    inherited LblIBGE: TLabel
+      Size.Height = 23.000000000000000000
+    end
+    inherited LblDDD: TLabel
+      Size.Height = 23.000000000000000000
+    end
+    inherited Lblsiafi: TLabel
+      Size.Height = 23.000000000000000000
+    end
+    inherited LblFonte: TLabel
+      Size.Height = 23.000000000000000000
+    end
+    inherited LblLink: TLabel
+      Size.Height = 23.000000000000000000
+    end
+  end
+  inherited Memo: TMemo
+    Size.Width = 414.000000000000000000
+    Size.Height = 411.000000000000000000
+    Viewport.Width = 414.000000000000000000
+    Viewport.Height = 411.000000000000000000
+  end
+end

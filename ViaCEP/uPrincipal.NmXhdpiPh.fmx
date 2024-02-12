@@ -1,0 +1,99 @@
+inherited FrmPrincipal_NmXhdpiPh: TFrmPrincipal_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited Button: TButton
+    Position.Y = 559.000000000000000000
+    Size.Width = 400.000000000000000000
+  end
+  inherited GroupBox1: TGroupBox
+    Size.Width = 400.000000000000000000
+    inherited EditCEP: TEdit
+      TabOrder = 37
+      Size.Height = 32.000000000000000000
+    end
+    inherited LblCEP: TLabel
+      Size.Height = 22.000000000000000000
+      TabOrder = 38
+    end
+    inherited Glyph1: TGlyph
+      Position.X = 347.000000000000000000
+    end
+  end
+  inherited GroupBox2: TGroupBox
+    Size.Width = 400.000000000000000000
+    inherited EditLogradouro: TEdit
+      TabOrder = 37
+    end
+    inherited EditComplemento: TEdit
+      TabOrder = 38
+    end
+    inherited EditBairro: TEdit
+      TabOrder = 39
+    end
+    inherited EditLocalidade: TEdit
+      TabOrder = 40
+      inherited LblGIA: TLabel
+        Size.Height = 22.000000000000000000
+      end
+    end
+    inherited EditUF: TEdit
+      TabOrder = 41
+    end
+    inherited EditGIA: TEdit
+      TabOrder = 42
+    end
+    inherited EditDDD: TEdit
+      TabOrder = 43
+    end
+    inherited EditSIAFI: TEdit
+      TabOrder = 44
+    end
+    inherited LblLogradouro: TLabel
+      Size.Height = 22.000000000000000000
+      TabOrder = 45
+    end
+    inherited LblComplemento: TLabel
+      Size.Height = 44.000000000000000000
+      TabOrder = 46
+    end
+    inherited LblBairro: TLabel
+      Size.Height = 22.000000000000000000
+      TabOrder = 47
+    end
+    inherited LblLocalidade: TLabel
+      Size.Height = 22.000000000000000000
+      TabOrder = 48
+    end
+    inherited LblUF: TLabel
+      Size.Height = 22.000000000000000000
+      TabOrder = 49
+    end
+    inherited LblIBGE: TLabel
+      Size.Height = 22.000000000000000000
+      TabOrder = 50
+    end
+    inherited LblDDD: TLabel
+      Size.Height = 22.000000000000000000
+      TabOrder = 51
+    end
+    inherited Lblsiafi: TLabel
+      Size.Height = 22.000000000000000000
+      TabOrder = 52
+    end
+    inherited LblFonte: TLabel
+      Size.Height = 44.000000000000000000
+      TabOrder = 53
+    end
+    inherited LblLink: TLabel
+      Size.Height = 22.000000000000000000
+      TabOrder = 54
+    end
+  end
+  inherited Memo: TMemo
+    Size.Width = 400.000000000000000000
+    Size.Height = 310.000000000000000000
+    Viewport.Width = 400.000000000000000000
+    Viewport.Height = 310.000000000000000000
+  end
+end

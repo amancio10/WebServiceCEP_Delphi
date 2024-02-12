@@ -1,0 +1,82 @@
+inherited FrmPrincipal_Surface: TFrmPrincipal_Surface
+  ClientHeight = 1920
+  ClientWidth = 1080
+  DesignerMasterStyle = 0
+  inherited Button: TButton
+    Position.Y = 1864.000000000000000000
+    Size.Width = 1080.000000000000000000
+  end
+  inherited GroupBox1: TGroupBox
+    Size.Width = 1080.000000000000000000
+    inherited EditCEP: TEdit
+      TabOrder = 37
+    end
+    inherited Glyph1: TGlyph
+      Padding.Right = 100.000000000000000000
+      Position.X = 1027.000000000000000000
+    end
+  end
+  inherited GroupBox2: TGroupBox
+    Size.Width = 1080.000000000000000000
+    inherited EditLogradouro: TEdit
+      TabOrder = 37
+    end
+    inherited EditComplemento: TEdit
+      TabOrder = 38
+    end
+    inherited EditBairro: TEdit
+      TabOrder = 39
+    end
+    inherited EditLocalidade: TEdit
+      TabOrder = 40
+    end
+    inherited EditUF: TEdit
+      TabOrder = 41
+    end
+    inherited EditGIA: TEdit
+      TabOrder = 42
+    end
+    inherited EditDDD: TEdit
+      TabOrder = 43
+    end
+    inherited EditSIAFI: TEdit
+      TabOrder = 44
+    end
+    inherited LblLogradouro: TLabel
+      TabOrder = 45
+    end
+    inherited LblComplemento: TLabel
+      TabOrder = 46
+    end
+    inherited LblBairro: TLabel
+      TabOrder = 47
+    end
+    inherited LblLocalidade: TLabel
+      TabOrder = 48
+    end
+    inherited LblUF: TLabel
+      TabOrder = 49
+    end
+    inherited LblIBGE: TLabel
+      TabOrder = 50
+    end
+    inherited LblDDD: TLabel
+      TabOrder = 51
+    end
+    inherited Lblsiafi: TLabel
+      TabOrder = 52
+    end
+    inherited LblFonte: TLabel
+      TabOrder = 53
+    end
+    inherited LblLink: TLabel
+      TabOrder = 54
+    end
+  end
+  inherited Memo: TMemo
+    Size.Width = 1080.000000000000000000
+    Size.Height = 1615.000000000000000000
+    Viewport.Width = 1080.000000000000000000
+    Viewport.Height = 1615.000000000000000000
+  end
+end
