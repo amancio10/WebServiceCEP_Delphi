@@ -54,7 +54,7 @@ var
 implementation
 
 Uses
-  {Web.HTTPApp,} System.JSON;
+ System.JSON;
 
 {$R *.fmx}
 {$R *.Surface.fmx MSWINDOWS}

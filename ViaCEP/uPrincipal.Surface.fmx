@@ -11,6 +11,9 @@ inherited FrmPrincipal_Surface: TFrmPrincipal_Surface
     inherited EditCEP: TEdit
       TabOrder = 37
     end
+    inherited LblCEP: TLabel
+      TabOrder = 38
+    end
     inherited Glyph1: TGlyph
       Padding.Right = 100.000000000000000000
       Position.X = 1027.000000000000000000
